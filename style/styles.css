@@ -1,0 +1,585 @@
+
+
+/**aquí ponemos comentarios  
+
+selector(s) {
+    propiedad: valor1;
+}
+html {
+     margin: 0;
+     font-size: 16px;
+}
+h1 {
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
+}
+las clases se escriben con .hero{} y los id con #hero{} 
+.hero:hover{} */
+/*   sift+comand+7 para ponerlos automaticos*/
+
+html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+
+  /* Navegador background (barra principal, logo y navegacion*/
+
+.onebar {
+    background-color:  #F8765E;
+    background-attachment: inherit;
+    background-position: 100%;
+    background-size: auto;
+    height: 100px;
+    margin-top: -26px;
+    max-width:100%;
+}
+
+.logo {
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    padding-top: 35px;
+    
+}
+
+/* Navegador*/
+
+.nav {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    margin-top: -95px;
+    margin-right: 120px;
+    overflow: hidden;
+    position: sticky;
+    float: right;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    }
+/* Estilos de las listas*/
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+/*-----disponer en linea los elementos de la lista------*/
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+/* slider 1*/
+
+.slider1 {
+    width: 100%;
+    background-color:  #F8765E;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: auto;
+    height: 800px;
+    margin-top: -40px;
+}
+
+/*---texto principal----*/
+
+h1 {
+    /*font-size: 2em;
+    font-weight: 900;
+    text-transform: capitalize;
+    /* para que todo esté en mayuscula text-transform: uppercase; */
+    /* text-decoration: underline; */
+    /* text-decoration: wavy underline; */
+    /*text-align: center;
+    line-height: 1.5em; */
+    margin-left: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: white;
+    padding-top: 150px;
+    width: 40%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    }
+
+    .parrafo1 {
+        margin-left: 200px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: white;
+        width: 39%;
+        position: relative;
+        top: -15px;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        }
+
+        .landingimage {
+            float: right;
+            overflow: hidden;
+            position: relative;
+            top: -350px;    
+            right: 70px;
+            }
+
+/* Formulario slider*/
+
+/* Formulario slider*/
+
+input {
+    position: absolute;
+    margin-left: 200px;
+    top: 590px;
+    border-radius: 20px;
+    border-style: none;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+
+    }
+    
+    
+    button {
+    position: absolute;
+    left: 40%;
+    top: 590px;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #9BDBE7;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    }
+
+
+
+    /* Contenedores con fondo blanco //buscar shadow//  */
+
+    .squarebackground{
+    background-color: #fffcfb;
+    }
+    
+        .contenedor {
+        position: relative;
+        /* Utilizar flex para despues se coloquen todas bien
+        */
+        /* podemos escribirlo igual flex: 0 1 20% es lo mismo */
+        /* cambiar el orden de los elementos order: 2; */
+        display: flex;
+        margin-left: 200px;
+        top: -250px;
+        width: 83%;
+        background-color: white;
+        border-radius: 1em;
+     /* Así ponemos la sombra */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding-bottom: 5%;
+        }
+        
+    /* Utilizar item +img para modificar 
+    todas por igual de una vez, hacer lo mismo
+    con los textos*/
+
+            .item {
+            width: 400px;
+            align-self: center;
+            margin: 0 auto;
+            }
+            
+            .item img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            width: 150px;
+            height: 100px;
+
+            }
+            
+            h4{
+            font-size: 18px;
+            color: #031D5B;
+            }
+            
+            .item h4 {
+            padding-left: 10%;
+            margin-bottom: 7%;
+            }
+            .title-subrayado {
+            border-bottom: 4px solid #F8765E;
+            margin-left: 37px;
+            width: 60px;
+            height: 5px;}
+            
+            .item p {
+            font-size: 16px;
+            padding-left: 37px;
+            padding-right: 37px;
+            line-height: 32px;
+            margin-top: 6%;
+            color: #031D5B;
+            }
+            
+
+
+
+    /* Tastes like premium */
+    
+    .imagen2 {
+        background-color: #fffcfb;
+        display: inline;
+    }
+    
+    .imagen2 article {
+        position: absolute;
+    }
+    
+    .backgroundcirculo {
+        position: absolute;
+        width: 490px;
+        height: 490px;
+        top: -150px;
+        left: 200px;
+        background-color: #F8765E;
+        border-radius: 100%;
+    }
+    
+    .imagen2 img {
+        display: block;
+        margin-left: 360px;
+        top: -80px;
+        width: 180px;
+        position: absolute;
+    }
+    
+    /*-texto premium-*/
+    
+    .parrafotastes {
+        position: relative;
+        top: -170px;
+        left: 60%;
+        width: 565px;
+        text-align: right;
+    }
+    
+    .parrafotaste {
+       
+        font-size: 16px;
+        line-height: 32px;
+        color: #031D5B;
+        }
+    
+    /*-Estilo de los textos principales-*/
+    
+    h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F8765E;
+    line-height: 1em;
+    }
+    
+    h3 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #031D5B;
+    line-height: 1.5em;
+    }
+    
+    .parrafotastes button {     
+        left: 70%;
+        top:  400px;
+        align-items: rigth;
+        margin: 0 auto;
+        border-radius: 20px;
+        width: 160px;
+        height: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #9BDBE7;
+        color: white;
+        font-size: 16px;
+        border-style: none;
+
+    }
+
+
+    
+    /* Opiniones de clientes // mirar lo de las commillas */
+    
+    .boxgeneral {
+        padding-top: 50px;
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    .boxgeneral h3 {
+    position: absolute;
+    left: 210px;
+    z-index: 100;
+    top: 70px;
+    width: 320px;
+    color: #F8765E;
+
+    }
+    .positionBox{
+        position: relative;
+    }
+    .box{
+        position: absolute;
+    }
+    .box1 {
+        width: 80%;
+    }
+
+    .comillas {
+        position: absolute;
+        left: 200px;
+
+    }
+    .capa1 {
+        z-index: 1;
+    }
+    .capa2{
+        z-index: 2;
+    }
+    .box2 {
+        width: 60%;
+        padding-left: 50px;
+        height: 750px;
+        background-color:#F8765E;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .hola {
+        position: absolute;
+        height:350px;
+        width: 50%;
+        top: 150px;;
+    }
+    .hola1{
+        left: 30%;
+        background-color: #9BDBE7;
+        border-radius: 20px;
+        height: 250px;
+        width: 200px;
+    }
+    .hola1-text1{
+        color: white;
+        line-height: 36px;
+    }
+    .hola1-text2 {
+        padding-top: 90%;
+        padding-bottom: 20%;
+        color: white; 
+    }
+    .hola2{
+        left: 65%;
+        background-color: white;
+        border-radius: 20px;
+        height: 250px;
+        width: 200px;
+    }
+    .hola2-text1{
+        color:#7C7C7C;
+        line-height: 36px;
+    }
+    .hola2-text2 {
+        padding-top: 90%;
+        padding-bottom: 20%;
+        color: #7C7C7C; 
+    }/*section4*/
+    .boxgeneral {
+        padding-top: 50px;
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .positionBox{
+        position: relative;
+    }
+    .box{
+        position: absolute;
+    }
+    .box1 {
+        width: 80%;
+    }
+    .capa1 {
+        z-index: 1;
+    }
+    .capa2{
+        z-index: 2;
+    }
+    .box2 {
+        width: 810px;
+        top: 0px;
+        right: 0px;
+        height: 950px;
+        background-color:#F8765E;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .hola {
+        position: absolute;
+        height:350px;
+        width: 50%;
+        top: 150px;;
+    }
+    .hola1{
+        left: 30%;
+        background-color: #9BDBE7;
+        border-radius: 20px;
+        height: 500px;
+        width: 420px;
+        padding: 50px;
+    }
+    .hola1-text1{
+        width: 310px;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        line-height: 36px;
+    }
+    .hola1-text2 {
+
+        padding-top: 90%;
+        padding-bottom: 20%;
+        color: white; 
+    }
+    /* cuadro blanco */
+    .hola2{
+        left: 65%;
+        background-color: white;
+        border-radius: 20px;
+        height: 500px;
+        width: 420px;
+        padding: 50px;
+    }
+    .hola2-text1{
+        width: 310px;
+        font-size: 18px;
+        font-weight: 400;
+        color:#7C7C7C;
+        line-height: 36px;
+    }
+    .hola2-text2 {
+        padding-top: 90%;
+        padding-bottom: 20%;
+        color: #7C7C7C; 
+    }
+    
+    
+         
+        
+
+
+        
+        /* <!--Subscripcion--!> */
+        
+        .subscription2 {
+        position: relative;
+        margin-top: 600px;
+        }
+        
+        .subscription2 h2 {
+        text-align: center;
+        padding-left: 37px;
+        padding-right: 37px;
+        line-height: 40px;
+            }
+        
+        .subscription2 h3{
+        color: #CDCDCD;
+        margin-top: -10px;
+        text-align: center;
+            }
+        
+        .email2 {
+        position: absolute;
+        left: 25%;
+        top: 170px;
+        border-radius: 20px;
+        width: 250px;
+        height: 35px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: solid;
+            }
+            
+            
+        .subscribe2 {
+        position: absolute;
+        left: 55%;
+        top: 150px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px;
+        width: 160px;
+        height: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        background-color: #9BDBE7;
+        color: white;
+        font-size: 16px;
+        }
+
+/*footer*/
+
+footer {
+    height: 200px;
+    background-color: #F8765E;
+    margin-top: 200px;
+    line-height: 40px;
+    text-align: center;
+            }
+    .terminos {
+        font-size: 16px;
+        padding-top: 50px;
+        color: #ffffff;
+    }
+    
+.footerstyle {
+    color: #ffffff;
+    align-items: center;
+
+    }
+
